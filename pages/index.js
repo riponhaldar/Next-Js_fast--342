@@ -3,7 +3,11 @@ import dynamic from 'next/dynamic';
 
 const Conten = dynamic(() => import('../component/Content'), {
   loading: function id() {
-    return <p>loading....</p>;
+    return (
+      <>
+        <p>loading....</p>
+      </>
+    );
   },
   ssr: false,
 });
