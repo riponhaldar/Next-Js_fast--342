@@ -11,7 +11,7 @@ const Conten = dynamic(() => import('../component/Content'), {
   },
   ssr: false,
 });
-// import Content from '../component/Content';
+
 export default function Home() {
   return (
     <>
